@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/win.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 900px;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    border: 4px double rgb(85, 85, 217);
+}
+
+.bio {
+    font-size: 18px;
+}
+
+#quotes {
+    width: 800px;
+    height: 500px;
+    background-image: radial-gradient(circle, #2261ae, #99c1dc);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 25px 25px 25px rgba(54, 6, 231, 0.2);
+    align-items: center;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+#links {
+    width: 600px;
+    height: auto;
+    background-image: radial-gradient(circle, #2261ae, #99c1dc);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 25px 25px 25px rgba(54, 6, 231, 0.2);
+    align-items: center;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: rgb(92, 92, 200);
+}
+
+
+
+#ref {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    font-size: 17px;
+    position: center;
+    color: #00008b;
+}
+
+#pic2 {
+    margin: 30px;
+    flex: 1;
+}
